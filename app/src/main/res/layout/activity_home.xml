@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity"
+    android:weightSum="20"
+    android:background="@color/colorWhite">
+
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="5">-->
+        <!---->
+    <!--</FrameLayout>-->
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="7">-->
+        <!---->
+    <!--</FrameLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="17"
+        android:background="@drawable/ic_bg_gradien"
+        android:orientation="vertical">
+
+
+        <View
+            android:layout_marginTop="45dp"
+            android:layout_gravity="center"
+            android:layout_width="138dp"
+            android:layout_height="64dp"
+            android:background="@drawable/ic_logo"/>
+
+        <View
+            android:layout_width="258dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/ic_welcome_images" />
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineHeight="20dp"
+            android:text="Sistem Informasi Pengaduan Sampah\ndan Gangguan Tentang Lingkungan"
+            android:textSize="19dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/source_sans_pro_bold"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mendukung terwujudnya Lingkungan Kabupaten Paser\nyang Bersih, Sehat dan Berkelanjutan"
+            android:textSize="14dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/source_sans_pro_regular"
+            android:textColor="@color/colorGrey"/>
+        <EditText
+            android:visibility="gone"
+            android:id="@+id/namaset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:visibility="gone"
+            android:id="@+id/alamatset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <View
+                android:id="@+id/btn_report"
+                android:layout_marginLeft="14dp"
+                android:layout_gravity="center"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:clickable="true"
+                android:background="@drawable/ic_btn_report"
+                android:foreground="@drawable/fg_circle"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <View
+                android:id="@+id/btn_lapor"
+                android:layout_width="79dp"
+                android:layout_height="79dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_btn_lapor"
+                android:foreground="@drawable/fg_circle"
+                android:clickable="true" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <View
+                android:id="@+id/btn_option"
+                android:clickable="true"
+                android:layout_marginRight="14dp"
+                android:layout_gravity="center"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:background="@drawable/ic_btn_option"
+                android:foreground="@drawable/fg_circle"/>
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

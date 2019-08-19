@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorWhite"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:paddingHorizontal="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="138dp"
+            android:layout_height="64dp"
+            android:background="@drawable/ic_logo2"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_marginBottom="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/source_sans_pro_regular"
+            android:textSize="16dp"
+            android:textColor="@color/colorBlack"
+            android:text="Sistem Informasi Pengaduan Sampah dan Gangguan Tentang Lingkungan"/>
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:fontFamily="@font/source_sans_pro_regular"
+            android:text="Masukkan No. HP Anda untuk mendaftar."
+            android:textColor="@color/colorGrey"
+            android:layout_marginBottom="40dp"/>
+
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="26dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_ico_ina"/>
+
+            <TextView
+                android:id="@+id/spinnerCountries"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+62"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/source_sans_pro_semibold"
+                android:textColor="@android:color/black"/>
+
+            <EditText
+                android:id="@+id/editTextPhone"
+                android:singleLine="true"
+                android:inputType="number"
+                android:paddingHorizontal="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:digits="0123456789"
+                android:textSize="18dp"
+                android:fontFamily="@font/source_sans_pro_regular"
+                android:textColor="@android:color/black"
+                android:maxLength="12"
+                android:background="@drawable/bg_rectangle_strok_solid"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonContinue"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="89dp"
+            android:textSize="18dp"
+            android:background="@drawable/bg_rectangle_solid"
+            android:text="Selanjutnya"
+            android:fontFamily="@font/source_sans_pro_bold"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+
+</LinearLayout>

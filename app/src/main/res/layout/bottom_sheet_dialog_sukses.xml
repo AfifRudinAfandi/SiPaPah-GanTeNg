@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="32dp"
+    android:paddingTop="32dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+        <View
+            android:id="@+id/btn_close"
+            android:clickable="true"
+            android:foreground="@drawable/fg_circle"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/ic_np_close"/>
+    </LinearLayout>
+
+    <View
+        android:layout_marginBottom="15dp"
+        android:layout_width="84dp"
+        android:layout_height="86dp"
+        android:background="@drawable/ic_icon_success"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Yeah..! Terima kasih"
+    android:textSize="24dp"
+    android:textColor="@color/colorBlack"
+    android:fontFamily="@font/source_sans_pro_bold"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terima kasih atas partisipasi anda dalam mendukung lingkungan bersih dan sehat."
+        android:textSize="16dp"
+        android:textColor="@color/colorGrey"
+        android:fontFamily="@font/source_sans_pro_regular"
+        android:layout_marginBottom="60dp"/>
+    <!--<TextView-->
+        <!--android:id="@+id/btn_home"-->
+        <!--android:layout_marginVertical="35dp"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="54dp"-->
+        <!--android:textColor="@color/colorWhite"-->
+        <!--android:text="Home"-->
+        <!--android:textSize="18dp"-->
+        <!--android:clickable="true"-->
+        <!--android:fontFamily="@font/source_sans_pro_bold"-->
+        <!--android:background="@drawable/bg_rectangle_solid"-->
+        <!--android:foreground="@drawable/fg_button_round"/>-->
+
+</LinearLayout>

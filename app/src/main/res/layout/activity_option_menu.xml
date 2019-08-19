@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OptionMenuActivity"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <View
+                android:id="@+id/btn_back"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:layout_width="34dp"
+                android:layout_height="33dp"
+                android:background="@drawable/ic_icon_back"
+                android:foreground="@drawable/fg_circle"
+                android:clickable="true"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menu Lain"
+                android:textSize="24dp"
+                android:fontFamily="@font/source_sans_pro_bold"
+                android:textColor="@color/colorBlack"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="33dp"
+            android:id="@+id/editProfil"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:foreground="@drawable/ripple_effect">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <View
+                    android:layout_gravity="center"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ic_icon_profile" />
+            </FrameLayout>
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nama_pengguna"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16dp"
+                    android:fontFamily="@font/source_sans_pro_regular"
+                    android:textColor="@color/colorBlack"/>
+                <TextView
+                    android:id="@+id/nik"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="14dp"
+                    android:fontFamily="@font/source_sans_pro_regular"
+                    android:textColor="@color/colorGrey"/>
+
+                <View
+                    android:layout_marginTop="4.5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/colorGrey"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_riwayat"
+            android:clickable="true"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="33dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:foreground="@drawable/ripple_effect">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <View
+                    android:layout_gravity="center"
+                    android:layout_width="40dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/ic_riwayat" />
+            </FrameLayout>
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Riwayat Laporan"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/source_sans_pro_regular"
+                    android:textColor="@color/colorBlack"/>
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Kontak layanan dan aduan"-->
+                    <!--android:textSize="14dp"-->
+                    <!--android:fontFamily="@font/source_sans_pro_regular"-->
+                    <!--android:textColor="@color/colorGrey"/>-->
+
+                <View
+                    android:layout_marginTop="14dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/colorGrey"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_about"
+            android:clickable="true"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="33dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:foreground="@drawable/ripple_effect">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <View
+                    android:layout_gravity="center"
+                    android:layout_width="40dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/ic_about" />
+            </FrameLayout>
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tentang Aplikasi"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/source_sans_pro_regular"
+                    android:textColor="@color/colorBlack"/>
+
+                <View
+                    android:layout_marginTop="14dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/colorGrey"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_exit"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="33dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:foreground="@drawable/ripple_effect">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <View
+                    android:layout_gravity="center"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ic_icon_exit" />
+            </FrameLayout>
+            <LinearLayout
+                android:gravity="bottom"
+                android:paddingLeft="10dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginBottom="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Keluar Aplikasi"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/source_sans_pro_regular"
+                    android:textColor="@color/colorRed"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/colorGrey"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<LinearLayout
+android:id="@+id/main_layout"
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@android:color/transparent"
+tools:context=".LaporanActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@android:color/white"
+    android:orientation="horizontal">
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <View
+            android:foreground="@drawable/fg_circle"
+            android:clickable="true"
+            android:id="@+id/btn_back"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_width="34dp"
+            android:layout_height="33dp"
+            android:background="@drawable/ic_icon_back"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/source_sans_pro_bold"
+            android:text="Riwayat Laporan"
+            android:textColor="@android:color/black"
+            android:textSize="24dp" />
+    </FrameLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorWhite">
+<com.google.android.material.tabs.TabLayout
+    android:id="@+id/tab_layout"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:layout_marginLeft="29dp"
+    android:layout_gravity="center"
+    app:tabIndicatorColor="@color/colorPrimaryDark"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <TextView
+                android:fontFamily="@font/source_sans_pro_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jenis Sampah     "
+                android:gravity="center"
+                android:textColor="@android:color/black"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_fil"
+                android:background="@android:color/transparent"/>
+        </LinearLayout>
+    </LinearLayout>
+
+<androidx.viewpager.widget.ViewPager
+    android:id="@+id/viewpager"
+    android:layout_below="@+id/tab_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    />
+
+</LinearLayout>

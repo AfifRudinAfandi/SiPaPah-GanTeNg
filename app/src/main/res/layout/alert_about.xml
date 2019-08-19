@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingVertical="45dp"
+    android:paddingHorizontal="20dp"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_alert"
+    android:gravity="center_horizontal">
+
+
+
+
+        <View
+            android:layout_width="61dp"
+            android:layout_height="77dp"
+            android:background="@drawable/kab_paser_warna_1"/>
+
+        <View
+            android:layout_marginTop="14dp"
+            android:layout_width="139dp"
+            android:layout_height="64dp"
+            android:background="@drawable/ic_logo2"/>
+        <TextView
+            android:layout_marginTop="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textAlignment="center"
+            android:text="Sistem Informasi Pengaduan Sampah dan Gangguan Tentang Lingkungan merupakan aplikasi yang bertujuan untuk memberikan kemudahan bagi masyarakat dalam menyampaikan pengaduan sampah dan gangguan lingkungan, sistem ini juga memberikan layanan jemputan sampah 3R serta memberikan informasi dan berita seputar lingkungan hidup."
+            android:textColor="@color/colorGrey4"/>
+
+        <TextView
+            android:layout_marginTop="35dp"
+            android:id="@+id/btn_close"
+            android:gravity="center"
+            android:layout_width="135dp"
+            android:layout_height="38dp"
+            android:textColor="@color/colorWhite"
+            android:text="Close"
+            android:textSize="14dp"
+            android:clickable="true"
+            android:fontFamily="@font/source_sans_pro_bold"
+            android:background="@drawable/bg_rectangle_solid"
+            android:foreground="@drawable/fg_button_round"/>
+
+
+</LinearLayout>

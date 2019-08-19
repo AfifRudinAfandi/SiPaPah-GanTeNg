@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "718661609259",
+    "firebase_url": "https://simpelapp-demo.firebaseio.com",
+    "project_id": "simpelapp-demo",
+    "storage_bucket": "simpelapp-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718661609259:android:46cc051db6deda4d",
+        "android_client_info": {
+          "package_name": "com.aknela.simpel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718661609259-r453khivaj9lvk4uou0nb5nmt2mta9ch.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aknela.simpel",
+            "certificate_hash": "b12ee297cb127c3589236dca03879a6d5fe72f0e"
+          }
+        },
+        {
+          "client_id": "718661609259-u4392d60mqdfgu4ksqsbe6b7bd5nldiu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDRnlga1JVxbCaOrd6rbfT0zajspH96vQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "718661609259-u4392d60mqdfgu4ksqsbe6b7bd5nldiu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
