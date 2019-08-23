@@ -63,7 +63,7 @@ import java.util.TimerTask;
 public class FormLaporActivity extends AppCompatActivity {
 
 
-    private String jsonURL = "https://dev.codekece.com/simpel_admin/php/kat-sampah.php";
+    private String jsonURL = "http://sipapahganteng.com/php/kat-sampah.php";
     private final int jsoncode = 1;
     private ArrayList<ModelData> modelDataArrayList;
     private ArrayList<String> names = new ArrayList<String>();

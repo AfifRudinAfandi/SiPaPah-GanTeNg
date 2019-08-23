@@ -17,7 +17,7 @@ import java.net.URL;
 
 public class Berita extends AppCompatActivity {
 
-    String urladdress="http://dev.codekece.com/simpel_admin/php/info.php";
+    String urladdress="http://sipapahganteng.com/php/info.php";
     String[] gambar;
     String[] judul;
     ListView listView;
