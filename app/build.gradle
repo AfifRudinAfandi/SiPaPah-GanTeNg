@@ -11,11 +11,11 @@ android {
     }
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.aknela.simpel"
+        applicationId "com.sipapah.simpel"
         minSdkVersion 19
         targetSdkVersion 28
-        versionCode 5
-        versionName "3.0.3"
+        versionCode 1
+        versionName "1.0.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {

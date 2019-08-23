@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "718661609259",
-    "firebase_url": "https://simpelapp-demo.firebaseio.com",
-    "project_id": "simpelapp-demo",
-    "storage_bucket": "simpelapp-demo.appspot.com"
+    "project_number": "808025711950",
+    "firebase_url": "https://sipapah-ganteng.firebaseio.com",
+    "project_id": "sipapah-ganteng",
+    "storage_bucket": "sipapah-ganteng.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:718661609259:android:46cc051db6deda4d",
+        "mobilesdk_app_id": "1:808025711950:android:87157a91ea4bbdf0",
         "android_client_info": {
-          "package_name": "com.aknela.simpel"
+          "package_name": "com.sipapah.simpel"
         }
       },
       "oauth_client": [
         {
-          "client_id": "718661609259-r453khivaj9lvk4uou0nb5nmt2mta9ch.apps.googleusercontent.com",
+          "client_id": "808025711950-188k5qp4i7k40a54g1cdcrvmnjf14daj.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.aknela.simpel",
-            "certificate_hash": "b12ee297cb127c3589236dca03879a6d5fe72f0e"
+            "package_name": "com.sipapah.simpel",
+            "certificate_hash": "86efdc1a94217866fd8fa4cd80d9345f54838807"
           }
         },
         {
-          "client_id": "718661609259-u4392d60mqdfgu4ksqsbe6b7bd5nldiu.apps.googleusercontent.com",
+          "client_id": "808025711950-aetjv62j2ml3f3griadadjdtifhtt5tt.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDDRnlga1JVxbCaOrd6rbfT0zajspH96vQ"
+          "current_key": "AIzaSyAclTDRSZ7Br5MSITOnmgltd92o7T4VPKw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "718661609259-u4392d60mqdfgu4ksqsbe6b7bd5nldiu.apps.googleusercontent.com",
+              "client_id": "808025711950-aetjv62j2ml3f3griadadjdtifhtt5tt.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
